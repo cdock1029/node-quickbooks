@@ -6,9 +6,7 @@
  * @copyright 2014 Michael Cohen
  */
 
-var request = require('request'),
-    uuid    = require('node-uuid'),
-    debug   = require('request-debug'),
+var uuid    = require('node-uuid'),
     util    = require('util'),
     moment  = require('moment'),
     _       = require('underscore'),
